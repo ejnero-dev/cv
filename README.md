@@ -58,7 +58,8 @@ Full-Stack Developer con amplia experiencia desarrollando sistemas enterprise co
 |---------|-------------|--------|
 | 🌐 **Web Interactiva** | Versión moderna con navegación y diseño responsive | [Ver Online](https://ejnero-dev.github.io/cv/) |
 | 📄 **PDF Optimizado** | Versión minimalista lista para enviar a ofertas | [Abrir HTML](./CV_Emilio_PDF.html) |
-| 📋 **Markdown** | Versión texto plano | [Ver Markdown](./CV_EMILIO_DEFINITIVO.md) |
+| 🇬🇧 **English Version** | Traditional English CV | [Abrir HTML](./CV_Emilio_EN.html) |
+| 🤖 **English AI-First** | AI-optimized English CV | [Abrir HTML](./CV_Emilio_EN_AIFirst.html) |
 
 ---
 

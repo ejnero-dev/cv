@@ -164,30 +164,25 @@
 
 ---
 
-## 📁 Archivos Generados
+## 📁 Archivos Actuales
 
-### Versión Final (Julio 2025)
-- `CV_EMILIO_DEFINITIVO.html` - Versión básica web/PDF
-- `CV_EMILIO_DEFINITIVO.md` - Versión Markdown limpia
-- `cv-pdf-interactive.html` - **VERSIÓN PRINCIPAL** - Diseño superior, interactiva, con navegación
+### Versiones del CV
+- `index.html` - **VERSIÓN PRINCIPAL** - CV interactivo web con navegación y diseño moderno
+- `CV_Emilio_PDF.html` - Versión PDF optimizada para enviar a ofertas
+- `CV_Emilio_EN.html` - Versión en inglés tradicional
+- `CV_Emilio_EN_AIFirst.html` - Versión en inglés optimizada para IA
 
-### Bancos de Memoria (01-05)
-- `01resumen-conversacion-cv-mejoras.md`
-- `02cv-improvement-memory-bank.md`
-- `03cv-emilio-memoria.md`
-- `04banco-memoria-cv.md`
-- `05cv-emilio-analisis-mejoras.md`
-
-### Versiones Anteriores (Referencia)
-- `cv-emilio-optimizado.md` - **Archivo de referencia con información completa**
-- `EMILIO_NEVA_cv.md` (aún con referencias académicas - descartado)
+### Documentación
+- `CLAUDE.md` - Memoria completa del proyecto (este archivo)
+- `README.md` - README en español
+- `README_EN.md` - README en inglés
 
 ---
 
 ## 🔄 Próximos Pasos Recomendados
 
 ### Inmediatos
-1. **Generar PDF** desde cv-pdf-interactive.html (versión principal)
+1. **Generar PDF** desde index.html o CV_Emilio_PDF.html
 2. **Actualizar LinkedIn** con nuevo posicionamiento
 3. **Preparar elevator pitch** coherente con CV
 
@@ -270,10 +265,8 @@
 
 ### Archivos a Consultar
 - Este CLAUDE.md para contexto completo
-- `cv-pdf-interactive.html` - **ARCHIVO PRINCIPAL ACTUAL**
-- `cv-emilio-optimizado.md` - Archivo de referencia con información completa
-- `CV_EMILIO_DEFINITIVO.md` - Versión markdown limpia
-- Bancos memoria 04-05 para errores a evitar
+- `index.html` - **ARCHIVO PRINCIPAL ACTUAL** (CV interactivo web)
+- `CV_Emilio_PDF.html` - Versión optimizada para envío
 
 ### Cambios Finales Implementados (Julio 2025)
 - ✅ **Tagline híbrido:** "Full-Stack Developer con 8+ años en IT especializado en integración de Computer Vision en arquitecturas enterprise"
@@ -289,7 +282,15 @@
 - ✅ **Perfil actualizado:** Incluye mención a capacidades analíticas
 - ✅ **Sección Logros Destacados:** Mantiene mejor expediente, proyecto 10/10, experiencia IT
 
+### Limpieza Noviembre 2025 - Repositorio
+- ✅ **Archivos obsoletos eliminados:** CV_EMILIO_DEFINITIVO.html, CV_EMILIO_DEFINITIVO.md
+- ✅ **Carpeta archivos_creados/ borrada** (versiones antiguas)
+- ✅ **Bancos de memoria eliminados** (01-05 archivos md)
+- ✅ **README.md actualizado** con versiones actuales del CV
+- ✅ **CLAUDE.md actualizado** eliminando referencias a archivos borrados
+- ✅ **Repositorio limpio** con solo archivos activos y documentación relevante
+
 ---
 
-*Última actualización: Septiembre 2025*
+*Última actualización: Noviembre 2025*
 *Próxima revisión recomendada: Cada 6 meses o cuando haya cambios laborales significativos*
