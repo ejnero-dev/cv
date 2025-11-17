@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emilio José Neva Rodríguez - Full-Stack Developer | Python + React + AI</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Full-Stack Developer with 8+ years in IT specialized in Computer Vision and enterprise architectures. Medical biometric system with blockchain in production. Python, React, AI/ML.">
+    <meta name="keywords" content="Full-Stack Developer, Python, React, Computer Vision, AI, Machine Learning, Blockchain, Flask, PostgreSQL, TypeScript, OpenCV, Spain, software development">
+    <meta name="author" content="Emilio José Neva Rodríguez">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / LinkedIn -->
+    <meta property="og:type" content="profile">
+    <meta property="og:title" content="Emilio José Neva Rodríguez - Full-Stack Developer | Python + React + AI">
+    <meta property="og:description" content="Full-Stack Developer with 8+ years in IT. Enterprise medical biometric system in production with Python, React, Computer Vision and Blockchain.">
+    <meta property="og:url" content="https://ejnero-dev.github.io/cv/">
+    <meta property="og:site_name" content="CV Emilio Neva">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Emilio José Neva Rodríguez - Full-Stack Developer">
+    <meta name="twitter:description" content="Full-Stack Developer with 8+ years in IT specialized in Computer Vision and enterprise architectures.">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💼</text></svg>">
+
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Emilio José Neva Rodríguez",
+      "jobTitle": "Full-Stack Developer",
+      "description": "Full-Stack Developer with 8+ years in IT specialized in Computer Vision integration in enterprise architectures",
+      "email": "ejnero.dev@gmail.com",
+      "telephone": "+34622207205",
+      "url": "https://ejnero-dev.github.io/cv/",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Rota",
+        "addressRegion": "Cádiz",
+        "addressCountry": "ES"
+      },
+      "sameAs": [
+        "https://linkedin.com/in/emilioneva"
+      ],
+      "knowsAbout": [
+        "Python",
+        "React",
+        "Computer Vision",
+        "Machine Learning",
+        "Flask",
+        "PostgreSQL",
+        "TypeScript",
+        "OpenCV",
+        "Blockchain",
+        "Full-Stack Development",
+        "Power BI",
+        "Data Analysis"
+      ],
+      "alumniOf": [
+        {
+          "@type": "EducationalOrganization",
+          "name": "IES Castillo de Luna",
+          "location": "Rota, Cádiz, Spain"
+        },
+        {
+          "@type": "EducationalOrganization",
+          "name": "Campus Universitario EUSA",
+          "location": "Sevilla, Spain"
+        }
+      ],
+      "worksFor": {
+        "@type": "Organization",
+        "name": "DSA Grupo"
+      },
+      "hasOccupation": {
+        "@type": "Occupation",
+        "name": "AI/Full-Stack Developer",
+        "skills": "Python, Flask, React, TypeScript, Computer Vision, Machine Learning, Blockchain, Power BI"
+      }
+    }
+    </script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+        /* Font optimization */
+        @font-face {
+            font-family: 'Inter';
+            font-display: swap;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            line-height: 1.5;
+            color: #1f2937;
+            background: #fff;
+            font-size: 10pt;
+        }
+
+        .container {
+            max-width: 210mm;
+            margin: 0 auto;
+            padding: 15mm;
+            background: white;
+            min-height: 297mm;
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #2563eb;
+        }
+
+        .name {
+            font-size: 24pt;
+            font-weight: 700;
+            color: #1f2937;
+            margin-bottom: 8px;
+            letter-spacing: -0.5px;
+        }
+
+        .title {
+            font-size: 13pt;
+            font-weight: 600;
+            color: #2563eb;
+            margin-bottom: 6px;
+        }
+
+        .subtitle {
+            font-size: 10pt;
+            color: #6b7280;
+            font-style: italic;
+            margin-bottom: 12px;
+        }
+
+        .contact {
+            font-size: 9pt;
+            color: #374151;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .contact span {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .contact a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+
+        /* Sections */
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .section-title {
+            font-size: 12pt;
+            font-weight: 700;
+            color: #2563eb;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            border-left: 4px solid #2563eb;
+            padding-left: 8px;
+        }
+
+        /* Experience */
+        .job {
+            margin-bottom: 15px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+        .job:last-child {
+            border-bottom: none;
+        }
+
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 6px;
+            flex-wrap: wrap;
+        }
+
+        .job-title {
+            font-size: 11pt;
+            font-weight: 600;
+            color: #1f2937;
+        }
+
+        .company {
+            color: #2563eb;
+            font-weight: 500;
+        }
+
+        .date {
+            font-size: 9pt;
+            color: #6b7280;
+            font-style: italic;
+        }
+
+        .job-description {
+            font-size: 9.5pt;
+            color: #374151;
+            margin-bottom: 6px;
+            font-weight: 500;
+        }
+
+        .job-achievements {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .job-achievements li {
+            position: relative;
+            padding-left: 15px;
+            margin-bottom: 4px;
+            font-size: 9pt;
+            line-height: 1.4;
+        }
+
+        .job-achievements li::before {
+            content: '▸';
+            position: absolute;
+            left: 0;
+            color: #2563eb;
+            font-weight: bold;
+        }
+
+        .tech-stack {
+            background: #f3f4f6;
+            padding: 6px 10px;
+            border-radius: 4px;
+            font-size: 8.5pt;
+            color: #374151;
+            margin-top: 6px;
+            border-left: 3px solid #2563eb;
+        }
+
+        .tech-stack strong {
+            color: #1f2937;
+        }
+
+        /* Skills */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 8px;
+        }
+
+        .skill-line {
+            font-size: 9pt;
+            line-height: 1.4;
+        }
+
+        .skill-line strong {
+            color: #1f2937;
+            font-weight: 600;
+        }
+
+        /* Projects */
+        .project {
+            margin-bottom: 10px;
+            padding: 8px 0;
+        }
+
+        .project-title {
+            font-size: 10pt;
+            font-weight: 600;
+            color: #1f2937;
+            margin-bottom: 3px;
+        }
+
+        .project-tech {
+            font-size: 8.5pt;
+            color: #6b7280;
+            font-style: italic;
+            margin-bottom: 3px;
+        }
+
+        .project-description {
+            font-size: 9pt;
+            color: #374151;
+            line-height: 1.3;
+        }
+
+        /* Education */
+        .education-item {
+            margin-bottom: 8px;
+            font-size: 9pt;
+        }
+
+        .education-title {
+            font-weight: 600;
+            color: #1f2937;
+        }
+
+        .education-institution {
+            color: #6b7280;
+            font-style: italic;
+        }
+
+        /* Languages */
+        .languages {
+            font-size: 9pt;
+            color: #374151;
+        }
+
+        /* Footer */
+        .footer {
+            margin-top: 20px;
+            padding-top: 10px;
+            border-top: 1px solid #e5e7eb;
+            text-align: center;
+            font-size: 8pt;
+            color: #6b7280;
+            font-style: italic;
+        }
+
+        /* Print styles */
+        @media print {
+            body {
+                font-size: 9pt;
+            }
+            .container {
+                padding: 10mm;
+            }
+            .job-achievements li {
+                font-size: 8.5pt;
+            }
+            a {
+                color: #2563eb !important;
+                text-decoration: none !important;
+            }
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .container {
+                padding: 15px;
+            }
+            .name {
+                font-size: 20pt;
+            }
+            .title {
+                font-size: 11pt;
+            }
+            .contact {
+                flex-direction: column;
+                gap: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="name">EMILIO JOSÉ NEVA RODRÍGUEZ</h1>
+            <div class="title">Full-Stack Developer specialized in enterprise architectures with AI</div>
+            <div class="subtitle">8+ years IT experience | Data Analysis | Python + React + Computer Vision</div>
+            <div class="contact">
+                <span>📧 <a href="mailto:ejnero.dev@gmail.com">ejnero.dev@gmail.com</a></span>
+                <span>📱 +34 622 207 205</span>
+                <span>💼 <a href="https://linkedin.com/in/emilioneva" target="_blank" rel="noopener noreferrer">LinkedIn</a></span>
+                <span>📍 Rota, Spain</span>
+                <span>🌍 Immediate availability • Remote</span>
+            </div>
+        </header>
+
+        <section class="section">
+            <h2 class="section-title">Professional Experience</h2>
+
+            <div class="job">
+                <div class="job-header">
+                    <div>
+                        <span class="job-title">AI/Full-Stack Developer</span> |
+                        <span class="company">DSA Grupo</span>
+                    </div>
+                    <span class="date">Mar 2024 - Jun 2025</span>
+                </div>
+
+                <div class="job-description">
+                    Led complete development of enterprise medical biometric system in production
+                </div>
+
+                <ul class="job-achievements">
+                    <li>Full-stack architecture with <strong>Python/Flask + React</strong> for medical self-service kiosk</li>
+                    <li>Implemented multi-factor <strong>liveness detection</strong> against biometric spoofing</li>
+                    <li>Integrated <strong>blockchain (Web3.py)</strong> for critical data integrity</li>
+                    <li>Developed <strong>multimodal interface</strong> with STT/TTS (Vosk, Whisper, Kokoro)</li>
+                    <li><strong>Offline-first</strong> system with Service Workers and IndexedDB for high availability</li>
+                </ul>
+
+                <div class="tech-stack">
+                    <strong>Stack:</strong> Python, Flask, PostgreSQL, React, TypeScript, OpenCV, face_recognition
+                </div>
+
+                <div style="margin-top: 8px;">
+                    <div class="job-description">Computer Vision Pipeline for Precision Agriculture</div>
+                    <ul class="job-achievements">
+                        <li>Implemented automated plant detection with <strong>RF-DETR + FastSAM</strong></li>
+                        <li>Optimized GPU inference (10GB VRAM) for real-time processing</li>
+                        <li><strong>Result:</strong> Production-ready system with Gradio web interface</li>
+                    </ul>
+                </div>
+
+                <div style="margin-top: 8px;">
+                    <div class="job-description">Wallapop Automated Chatbot</div>
+                    <ul class="job-achievements">
+                        <li>Production chatbot with <strong>99.97% uptime</strong> serving automated marketplace responses</li>
+                        <li>Hybrid NLP system combining template matching with <strong>Ollama (Llama 3.2)</strong></li>
+                        <li>Redis caching and comprehensive monitoring infrastructure</li>
+                    </ul>
+                    <div class="tech-stack">
+                        <strong>Stack:</strong> Python, FastAPI, React, spaCy, Ollama, Redis
+                    </div>
+                </div>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <div>
+                        <span class="job-title">Senior IT Technician & Team Lead</span> |
+                        <span class="company">PCBOX Seville</span>
+                    </div>
+                    <span class="date">2015 - 2020</span>
+                </div>
+
+                <div class="job-description">Progressed from technician to team leader in 5 years</div>
+
+                <ul class="job-achievements">
+                    <li>Led technical team of 3 people, training and mentoring</li>
+                    <li>Implemented ticket management system, optimizing workflows</li>
+                    <li>Managed IT infrastructure for enterprise clients (hardware/software)</li>
+                    <li>Reduced resolution time by 30%, achieving 95% customer satisfaction</li>
+                </ul>
+
+                <div class="tech-stack">
+                    <strong>Skills:</strong> Advanced troubleshooting, team management, enterprise support
+                </div>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <div>
+                        <span class="job-title">Entrepreneur</span> |
+                        <span class="company">Self-Employed</span>
+                    </div>
+                    <span class="date">2011 - 2015</span>
+                </div>
+
+                <div class="job-description">Digitized operations and developed control systems</div>
+
+                <ul class="job-achievements">
+                    <li>Implemented inventory and financial control systems</li>
+                    <li>Automated manual processes, improving operational efficiency</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-line"><strong>Backend & Data:</strong> Python (Flask, FastAPI), PostgreSQL, SQLite, RESTful APIs, JWT</div>
+                <div class="skill-line"><strong>Frontend:</strong> React, TypeScript, JavaScript ES6+, Tailwind CSS, Service Workers</div>
+                <div class="skill-line"><strong>AI/Computer Vision:</strong> OpenCV, RF-DETR, YOLO, FastSAM, face_recognition, Whisper, Ollama</div>
+                <div class="skill-line"><strong>BI & Analytics:</strong> Power BI, DAX, Dimensional Modeling, Pandas, NumPy, ETL</div>
+                <div class="skill-line"><strong>DevOps & Tools:</strong> Docker, Git, GitHub Actions, Linux, VS Code, Gradio, Redis</div>
+                <div class="skill-line"><strong>Architecture:</strong> Microservices, WebRTC, Blockchain (Web3.py), Offline-first design</div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Notable Projects</h2>
+
+            <div class="project">
+                <div class="project-title">Wallapop Automated Chatbot</div>
+                <div class="project-tech">Python + FastAPI + React + spaCy + Ollama (Llama 3.2)</div>
+                <div class="project-description">
+                    Production chatbot with 99.97% uptime serving automated responses for marketplace. Hybrid NLP + template system, Redis caching, and comprehensive monitoring.
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="project-title">Enterprise Medical Biometric System</div>
+                <div class="project-tech">Python + React + Blockchain</div>
+                <div class="project-description">
+                    Complete medical self-service system with facial recognition, thermal detection, and blockchain for data integrity. Multimodal interface with STT/TTS.
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="project-title">Agricultural Computer Vision Pipeline</div>
+                <div class="project-tech">RF-DETR + OpenCV</div>
+                <div class="project-description">
+                    Real-time automated plant detection and counting with GPU optimization and web diagnostic interface.
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="project-title">Multi-Format Converter</div>
+                <div class="project-tech">Java + JavaFX</div>
+                <div class="project-description">
+                    Desktop application for SQLite ↔ XML/JSON/Binary conversion with graphical interface.
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Education</h2>
+            <div class="education-item">
+                <span class="education-title">Higher Technical Degree in Multiplatform Application Development</span> |
+                <span class="education-institution">IES Castillo de Luna, Rota</span> |
+                <span class="date">2024-2025</span>
+            </div>
+            <div class="education-item">
+                <span class="education-title">Higher Technical Degree in Computer Systems Administration</span> |
+                <span class="education-institution">EUSA Seville</span> |
+                <span class="date">2006-2008</span>
+            </div>
+
+            <div class="languages" style="margin-top: 10px;">
+                <strong>Languages:</strong> Spanish (Native), English (C1)
+            </div>
+
+            <div style="margin-top: 10px; font-size: 9pt;">
+                <strong>Continuous Learning:</strong> Power BI (48h practical case - retail analytics dashboard), Currently exploring: Personal projects with agents, MCP, agent swarms
+            </div>
+        </section>
+
+        <div class="footer">
+            Professional references available upon request
+        </div>
+    </div>
+</body>
+</html>
