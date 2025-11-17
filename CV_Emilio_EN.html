@@ -3,26 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Emilio José Neva Rodríguez - Full-Stack Developer | Python + React + AI</title>
+    <title>Emilio José Neva Rodríguez - Full-Stack Developer | Python + React + IA</title>
 
     <!-- SEO Meta Tags -->
-    <meta name="description" content="Full-Stack Developer with 8+ years in IT specialized in Computer Vision and enterprise architectures. Medical biometric system with blockchain in production. Python, React, AI/ML.">
-    <meta name="keywords" content="Full-Stack Developer, Python, React, Computer Vision, AI, Machine Learning, Blockchain, Flask, PostgreSQL, TypeScript, OpenCV, Spain, software development">
+    <meta name="description" content="Full-Stack Developer con 8+ años en IT especializado en Computer Vision y arquitecturas enterprise. Sistema biométrico médico con blockchain en producción. Python, React, IA/ML.">
+    <meta name="keywords" content="Full-Stack Developer, Python, React, Computer Vision, IA, Machine Learning, Blockchain, Flask, PostgreSQL, TypeScript, OpenCV, Cádiz, desarrollo software">
     <meta name="author" content="Emilio José Neva Rodríguez">
     <meta name="robots" content="index, follow">
 
     <!-- Open Graph / LinkedIn -->
     <meta property="og:type" content="profile">
-    <meta property="og:title" content="Emilio José Neva Rodríguez - Full-Stack Developer | Python + React + AI">
-    <meta property="og:description" content="Full-Stack Developer with 8+ years in IT. Enterprise medical biometric system in production with Python, React, Computer Vision and Blockchain.">
+    <meta property="og:title" content="Emilio José Neva Rodríguez - Full-Stack Developer | Python + React + IA">
+    <meta property="og:description" content="Full-Stack Developer con 8+ años en IT. Sistema biométrico médico enterprise en producción con Python, React, Computer Vision y Blockchain.">
     <meta property="og:url" content="https://ejnero-dev.github.io/cv/">
     <meta property="og:site_name" content="CV Emilio Neva">
-    <meta property="og:locale" content="en_US">
+    <meta property="og:locale" content="es_ES">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Emilio José Neva Rodríguez - Full-Stack Developer">
-    <meta name="twitter:description" content="Full-Stack Developer with 8+ years in IT specialized in Computer Vision and enterprise architectures.">
+    <meta name="twitter:description" content="Full-Stack Developer con 8+ años en IT especializado en Computer Vision y arquitecturas enterprise.">
 
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💼</text></svg>">
@@ -34,7 +34,7 @@
       "@type": "Person",
       "name": "Emilio José Neva Rodríguez",
       "jobTitle": "Full-Stack Developer",
-      "description": "Full-Stack Developer with 8+ years in IT specialized in Computer Vision integration in enterprise architectures",
+      "description": "Full-Stack Developer con 8+ años en IT especializado en integración de Computer Vision en arquitecturas enterprise",
       "email": "ejnero.dev@gmail.com",
       "telephone": "+34622207205",
       "url": "https://ejnero-dev.github.io/cv/",
@@ -65,12 +65,12 @@
         {
           "@type": "EducationalOrganization",
           "name": "IES Castillo de Luna",
-          "location": "Rota, Cádiz, Spain"
+          "location": "Rota, Cádiz"
         },
         {
           "@type": "EducationalOrganization",
           "name": "Campus Universitario EUSA",
-          "location": "Sevilla, Spain"
+          "location": "Sevilla"
         }
       ],
       "worksFor": {
@@ -85,471 +85,1137 @@
     }
     </script>
 
+    <!-- Google Analytics (opcional) -->
+    <!-- Descomenta y añade tu ID de Google Analytics si quieres tracking:
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
+    -->
+
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 
         /* Font optimization */
         @font-face {
             font-family: 'Inter';
             font-display: swap;
         }
-
+        
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-
-        body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-            line-height: 1.5;
-            color: #1f2937;
-            background: #fff;
-            font-size: 10pt;
+        
+        :root {
+            --primary: #2563eb;
+            --primary-dark: #1d4ed8;
+            --secondary: #7c3aed;
+            --accent: #10b981;
+            --text: #1f2937;
+            --text-light: #6b7280;
+            --bg-light: #f9fafb;
+            --bg-white: #ffffff;
+            --border: #e5e7eb;
+            --link-color: #2563eb;
+            --header-gradient-start: #2563eb;
+            --header-gradient-end: #7c3aed;
+            --highlight-bg: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+            --nav-hover-bg: #f9fafb;
         }
 
+        /* Dark mode */
+        [data-theme="dark"] {
+            --primary: #60a5fa;
+            --primary-dark: #3b82f6;
+            --secondary: #a78bfa;
+            --accent: #34d399;
+            --text: #f9fafb;
+            --text-light: #d1d5db;
+            --bg-light: #1f2937;
+            --bg-white: #111827;
+            --border: #374151;
+            --link-color: #60a5fa;
+            --header-gradient-start: #1e40af;
+            --header-gradient-end: #6d28d9;
+            --highlight-bg: linear-gradient(135deg, #451a03 0%, #78350f 100%);
+            --nav-hover-bg: #374151;
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            line-height: 1.5;
+            color: var(--text);
+            background: var(--bg-white);
+            font-size: 10pt;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        
+        /* Enlaces interactivos */
+        a {
+            color: var(--link-color);
+            text-decoration: none;
+            border-bottom: 1px dotted var(--link-color);
+            transition: all 0.2s;
+        }
+        
+        a:hover {
+            color: var(--primary-dark);
+            border-bottom-style: solid;
+        }
+        
+        /* Contenedor principal */
         .container {
             max-width: 210mm;
             margin: 0 auto;
-            padding: 15mm;
-            background: white;
-            min-height: 297mm;
+            background: var(--bg-white);
+            transition: background-color 0.3s ease;
         }
-
+        
+        /* Navegación lateral (índice) */
+        .nav-sidebar {
+            position: fixed;
+            left: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: var(--bg-white);
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            display: none;
+            transition: background-color 0.3s ease;
+        }
+        
+        @media screen and (min-width: 1200px) {
+            .nav-sidebar {
+                display: block;
+            }
+        }
+        
+        .nav-sidebar a {
+            display: block;
+            padding: 5px 10px;
+            margin: 2px 0;
+            color: var(--text-light);
+            border: none;
+            border-radius: 4px;
+            font-size: 9pt;
+        }
+        
+        .nav-sidebar a:hover {
+            background: var(--nav-hover-bg);
+            color: var(--primary);
+        }
+        
         /* Header */
         .header {
-            text-align: center;
-            margin-bottom: 25px;
-            padding-bottom: 15px;
-            border-bottom: 2px solid #2563eb;
+            background: linear-gradient(135deg, var(--header-gradient-start) 0%, var(--header-gradient-end) 100%);
+            color: white;
+            padding: 40px;
+            position: relative;
+            overflow: hidden;
+            transition: background 0.3s ease;
         }
 
+        /* Theme & PDF buttons */
+        .header-actions {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            display: flex;
+            gap: 10px;
+            z-index: 10;
+        }
+
+        .action-btn {
+            background: rgba(255, 255, 255, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 9pt;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            backdrop-filter: blur(10px);
+        }
+
+        .action-btn:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+
+        .action-btn:active {
+            transform: translateY(0);
+        }
+        
+        .header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+            transform: rotate(45deg);
+        }
+        
+        .header-content {
+            position: relative;
+            z-index: 1;
+            margin-top: 50px;
+        }
+
+        @media (max-width: 768px) {
+            .header-content {
+                margin-top: 10px;
+            }
+        }
+        
         .name {
-            font-size: 24pt;
-            font-weight: 700;
-            color: #1f2937;
+            font-size: 28pt;
+            font-weight: 800;
             margin-bottom: 8px;
             letter-spacing: -0.5px;
         }
-
-        .title {
-            font-size: 13pt;
-            font-weight: 600;
-            color: #2563eb;
-            margin-bottom: 6px;
+        
+        .tagline {
+            font-size: 14pt;
+            font-weight: 300;
+            margin-bottom: 5px;
+            opacity: 0.95;
         }
-
+        
         .subtitle {
-            font-size: 10pt;
-            color: #6b7280;
+            font-size: 11pt;
             font-style: italic;
-            margin-bottom: 12px;
-        }
-
-        .contact {
-            font-size: 9pt;
-            color: #374151;
-            display: flex;
-            justify-content: center;
-            gap: 15px;
-            flex-wrap: wrap;
-        }
-
-        .contact span {
-            display: flex;
-            align-items: center;
-            gap: 4px;
-        }
-
-        .contact a {
-            color: #2563eb;
-            text-decoration: none;
-        }
-
-        /* Sections */
-        .section {
+            opacity: 0.9;
             margin-bottom: 20px;
         }
-
+        
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            font-size: 10pt;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        
+        .contact-item a {
+            color: white;
+            border-bottom-color: rgba(255,255,255,0.5);
+        }
+        
+        .contact-item a:hover {
+            border-bottom-color: white;
+        }
+        
+        /* Quick Links */
+        .quick-links {
+            background: var(--bg-light);
+            padding: 15px 40px;
+            border-bottom: 2px solid var(--border);
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .quick-links a {
+            color: var(--text);
+            font-weight: 500;
+            padding: 5px 15px;
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            background: var(--bg-white);
+            transition: all 0.3s ease;
+        }
+        
+        .quick-links a:hover {
+            background: var(--primary);
+            color: white;
+            border-color: var(--primary);
+        }
+        
+        /* Secciones */
+        .content {
+            padding: 40px;
+        }
+        
+        .section {
+            margin-bottom: 35px;
+            scroll-margin-top: 20px;
+        }
+        
         .section-title {
-            font-size: 12pt;
+            font-size: 16pt;
             font-weight: 700;
-            color: #2563eb;
-            margin-bottom: 10px;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            border-left: 4px solid #2563eb;
-            padding-left: 8px;
-        }
-
-        /* Experience */
-        .job {
+            color: var(--primary);
             margin-bottom: 15px;
-            padding-bottom: 12px;
-            border-bottom: 1px solid #e5e7eb;
+            padding-bottom: 8px;
+            border-bottom: 2px solid var(--primary);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .section-icon {
+            font-size: 18pt;
+        }
+        
+        /* Profile */
+        .profile {
+            background: var(--bg-light);
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid var(--primary);
+            font-size: 11pt;
+            line-height: 1.7;
+        }
+        
+        /* Highlights */
+        .highlights {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .highlight-item {
+            background: var(--highlight-bg);
+            padding: 15px;
+            border-radius: 8px;
+            display: flex;
+            align-items: start;
+            gap: 10px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
 
-        .job:last-child {
-            border-bottom: none;
+        .highlight-item:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
         }
-
+        
+        .highlight-icon {
+            font-size: 16pt;
+            flex-shrink: 0;
+        }
+        
+        /* Experience */
+        .experience-item {
+            margin-bottom: 25px;
+            padding: 20px;
+            background: var(--bg-light);
+            border-radius: 8px;
+            border-left: 4px solid var(--primary);
+            page-break-inside: avoid;
+        }
+        
         .job-header {
             display: flex;
             justify-content: space-between;
             align-items: baseline;
-            margin-bottom: 6px;
+            margin-bottom: 10px;
             flex-wrap: wrap;
         }
-
+        
         .job-title {
-            font-size: 11pt;
+            font-size: 13pt;
             font-weight: 600;
-            color: #1f2937;
+            color: var(--text);
         }
-
+        
         .company {
-            color: #2563eb;
+            color: var(--primary);
             font-weight: 500;
         }
-
+        
         .date {
             font-size: 9pt;
-            color: #6b7280;
+            color: var(--text-light);
             font-style: italic;
         }
-
-        .job-description {
-            font-size: 9.5pt;
-            color: #374151;
-            margin-bottom: 6px;
-            font-weight: 500;
+        
+        .project-box {
+            background: var(--bg-white);
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 6px;
+            border: 1px solid var(--border);
+            transition: all 0.3s ease;
         }
-
-        .job-achievements {
-            list-style: none;
-            padding-left: 0;
-        }
-
-        .job-achievements li {
-            position: relative;
-            padding-left: 15px;
-            margin-bottom: 4px;
-            font-size: 9pt;
-            line-height: 1.4;
-        }
-
-        .job-achievements li::before {
-            content: '▸';
-            position: absolute;
-            left: 0;
-            color: #2563eb;
-            font-weight: bold;
-        }
-
+        
         .tech-stack {
+            font-size: 9pt;
+            font-family: 'Consolas', monospace;
             background: #f3f4f6;
-            padding: 6px 10px;
+            padding: 10px;
             border-radius: 4px;
-            font-size: 8.5pt;
-            color: #374151;
-            margin-top: 6px;
-            border-left: 3px solid #2563eb;
+            margin: 10px 0;
         }
-
-        .tech-stack strong {
-            color: #1f2937;
-        }
-
+        
         /* Skills */
         .skills-grid {
             display: grid;
-            grid-template-columns: 1fr;
-            gap: 8px;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
         }
-
-        .skill-line {
-            font-size: 9pt;
-            line-height: 1.4;
+        
+        @media (max-width: 768px) {
+            .skills-grid {
+                grid-template-columns: 1fr;
+            }
         }
-
-        .skill-line strong {
-            color: #1f2937;
+        
+        .skill-category {
+            background: var(--bg-light);
+            padding: 15px;
+            border-radius: 8px;
+            border-top: 3px solid var(--primary);
+            page-break-inside: avoid;
+        }
+        
+        .skill-category h3 {
+            font-size: 11pt;
             font-weight: 600;
-        }
-
-        /* Projects */
-        .project {
             margin-bottom: 10px;
-            padding: 8px 0;
+            color: var(--text);
         }
-
-        .project-title {
-            font-size: 10pt;
-            font-weight: 600;
-            color: #1f2937;
-            margin-bottom: 3px;
+        
+        .skill-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
         }
-
-        .project-tech {
-            font-size: 8.5pt;
-            color: #6b7280;
-            font-style: italic;
-            margin-bottom: 3px;
-        }
-
-        .project-description {
+        
+        .skill-tag {
+            background: var(--bg-white);
+            border: 1px solid var(--border);
+            padding: 3px 10px;
+            border-radius: 15px;
             font-size: 9pt;
-            color: #374151;
-            line-height: 1.3;
+            color: var(--text);
+            transition: all 0.3s ease;
         }
 
+        .skill-tag:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
         /* Education */
         .education-item {
-            margin-bottom: 8px;
-            font-size: 9pt;
+            margin-bottom: 20px;
+            padding: 15px;
+            background: var(--bg-light);
+            border-radius: 8px;
+            border-left: 4px solid var(--accent);
+            page-break-inside: avoid;
         }
-
-        .education-title {
+        
+        .grade-badge {
+            display: inline-block;
+            background: var(--accent);
+            color: white;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 9pt;
             font-weight: 600;
-            color: #1f2937;
+            margin-right: 5px;
         }
-
-        .education-institution {
-            color: #6b7280;
-            font-style: italic;
+        
+        /* Projects */
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
         }
-
-        /* Languages */
-        .languages {
-            font-size: 9pt;
-            color: #374151;
+        
+        .project-card {
+            background: var(--bg-light);
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+            page-break-inside: avoid;
+            transition: all 0.2s;
         }
-
+        
+        .project-card:hover {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            transform: translateY(-2px);
+        }
+        
         /* Footer */
         .footer {
-            margin-top: 20px;
-            padding-top: 10px;
-            border-top: 1px solid #e5e7eb;
+            background: var(--text);
+            color: white;
+            padding: 30px 40px;
             text-align: center;
-            font-size: 8pt;
-            color: #6b7280;
-            font-style: italic;
         }
-
-        /* Print styles */
+        
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 15px;
+            flex-wrap: wrap;
+        }
+        
+        .footer-links a {
+            color: white;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        
+        /* Print Styles */
         @media print {
             body {
                 font-size: 9pt;
             }
-            .container {
-                padding: 10mm;
+            
+            .nav-sidebar {
+                display: none !important;
             }
-            .job-achievements li {
-                font-size: 8.5pt;
+            
+            .quick-links {
+                display: none;
             }
+            
+            .section {
+                page-break-inside: avoid;
+            }
+            
             a {
-                color: #2563eb !important;
+                color: var(--primary) !important;
                 text-decoration: none !important;
+            }
+            
+            .header {
+                background: var(--primary) !important;
+                print-color-adjust: exact;
+                -webkit-print-color-adjust: exact;
+            }
+            
+            .highlight-item {
+                print-color-adjust: exact;
+                -webkit-print-color-adjust: exact;
+            }
+        }
+        
+        /* Animaciones */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
             }
         }
 
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideInLeft {
+            from {
+                opacity: 0;
+                transform: translateX(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        .header-content {
+            animation: fadeIn 0.6s ease-out;
+        }
+
+        .section {
+            animation: fadeInUp 0.6s ease-out;
+            animation-fill-mode: both;
+        }
+
+        .section:nth-child(1) { animation-delay: 0.1s; }
+        .section:nth-child(2) { animation-delay: 0.2s; }
+        .section:nth-child(3) { animation-delay: 0.3s; }
+        .section:nth-child(4) { animation-delay: 0.4s; }
+        .section:nth-child(5) { animation-delay: 0.5s; }
+        .section:nth-child(6) { animation-delay: 0.6s; }
+
+        .experience-item,
+        .education-item,
+        .project-card {
+            animation: fadeInUp 0.5s ease-out;
+            animation-fill-mode: both;
+        }
+
+        .nav-sidebar {
+            animation: slideInLeft 0.5s ease-out 0.3s;
+            animation-fill-mode: both;
+        }
+
         /* Responsive */
-        @media (max-width: 600px) {
-            .container {
-                padding: 15px;
+        @media (max-width: 768px) {
+            .header {
+                padding: 30px 20px;
             }
+
+            .header-actions {
+                position: static;
+                justify-content: center;
+                margin-bottom: 20px;
+            }
+
+            .content {
+                padding: 20px;
+            }
+
             .name {
-                font-size: 20pt;
+                font-size: 22pt;
             }
-            .title {
-                font-size: 11pt;
-            }
-            .contact {
-                flex-direction: column;
-                gap: 5px;
+
+            .project-grid {
+                grid-template-columns: 1fr;
             }
         }
     </style>
 </head>
 <body>
+    <!-- Navigation sidebar -->
+    <nav class="nav-sidebar" id="nav" aria-label="Main navigation">
+        <a href="#inicio" aria-label="Go to home"><span aria-hidden="true">🏠</span> Home</a>
+        <a href="#perfil" aria-label="Go to profile"><span aria-hidden="true">👤</span> Profile</a>
+        <a href="#experiencia" aria-label="Go to experience"><span aria-hidden="true">💼</span> Experience</a>
+        <a href="#skills" aria-label="Go to skills"><span aria-hidden="true">🛠️</span> Skills</a>
+        <a href="#educacion" aria-label="Go to education"><span aria-hidden="true">🎓</span> Education</a>
+        <a href="#proyectos" aria-label="Go to projects"><span aria-hidden="true">🚀</span> Projects</a>
+        <a href="#contacto" aria-label="Go to contact"><span aria-hidden="true">📧</span> Contact</a>
+    </nav>
+
     <div class="container">
-        <header class="header">
-            <h1 class="name">EMILIO JOSÉ NEVA RODRÍGUEZ</h1>
-            <div class="title">Full-Stack Developer specialized in enterprise architectures with AI</div>
-            <div class="subtitle">8+ years IT experience | Data Analysis | Python + React + Computer Vision</div>
-            <div class="contact">
-                <span>📧 <a href="mailto:ejnero.dev@gmail.com">ejnero.dev@gmail.com</a></span>
-                <span>📱 +34 622 207 205</span>
-                <span>💼 <a href="https://linkedin.com/in/emilioneva" target="_blank" rel="noopener noreferrer">LinkedIn</a></span>
-                <span>📍 Rota, Spain</span>
-                <span>🌍 Immediate availability • Remote</span>
+        <!-- Header -->
+        <header class="header" id="inicio">
+            <div class="header-actions">
+                <button class="action-btn" onclick="window.location.href='index.html'" aria-label="Cambiar a Español">
+                    <span>🌐</span>
+                    <span>ES</span>
+                </button>
+                <button class="action-btn" id="theme-toggle" aria-label="Toggle theme">
+                    <span id="theme-icon">🌙</span>
+                    <span id="theme-text">Dark Mode</span>
+                </button>
+                <button class="action-btn" id="download-pdf" aria-label="Download PDF">
+                    <span>📥</span>
+                    <span>Download PDF</span>
+                </button>
+            </div>
+            <div class="header-content">
+                <h1 class="name">EMILIO JOSÉ NEVA RODRÍGUEZ</h1>
+                <p class="tagline">Full-Stack Developer with 8+ years in IT specialized in Computer Vision integration in enterprise architectures</p>
+                <p class="subtitle">Medical biometric system with blockchain and AI in production | Python + React</p>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <span aria-hidden="true">📧</span> <a href="mailto:ejnero.dev@gmail.com" aria-label="Enviar email a ejnero.dev@gmail.com">ejnero.dev@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <span aria-hidden="true">💼</span> <a href="https://linkedin.com/in/emilioneva" target="_blank" rel="noopener noreferrer" aria-label="Ver perfil de LinkedIn de Emilio Neva">LinkedIn</a>
+                    </div>
+                    <div class="contact-item">
+                        <span aria-hidden="true">📱</span> <span>622 207 205</span>
+                    </div>
+                    <div class="contact-item">
+                        <span aria-hidden="true">🌍</span> <span>Available for remote work</span>
+                    </div>
+                    <!-- <div class="contact-item">
+                        🐙 <a href="https://github.com/ejnero.dev" target="_blank">GitHub</a>
+                    </div> -->
+                </div>
             </div>
         </header>
 
-        <section class="section">
-            <h2 class="section-title">Professional Experience</h2>
+        <!-- Quick Links -->
+        <nav class="quick-links" aria-label="Quick links">
+            <a href="#perfil" aria-label="Go to about me">About me</a>
+            <a href="#experiencia" aria-label="Go to experience">Experience</a>
+            <a href="#skills" aria-label="Go to skills">Skills</a>
+            <a href="#proyectos" aria-label="Go to projects">Projects</a>
+            <a href="mailto:ejnero.dev@gmail.com" aria-label="Send contact email">Contact</a>
+        </nav>
 
-            <div class="job">
-                <div class="job-header">
-                    <div>
-                        <span class="job-title">AI/Full-Stack Developer</span> |
-                        <span class="company">DSA Grupo</span>
+        <!-- Content -->
+        <div class="content">
+            <!-- Profile Section -->
+            <section class="section" id="perfil" aria-labelledby="perfil-heading">
+                <h2 class="section-title" id="perfil-heading">
+                    <span class="section-icon" aria-hidden="true">👤</span>
+                    Professional Profile
+                </h2>
+                <div class="profile">
+                    <strong>Full-Stack Developer with 8+ years of IT experience</strong> specialized in Computer Vision integration
+                    in enterprise applications. I have led the complete development of a medical biometric system with blockchain and AI
+                    currently in production. My background combines solid experience in IT infrastructure (senior technician, team management)
+                    with recent specialization in advanced software development and data analysis. I seek challenging roles where I can apply my experience
+                    in distributed architectures, AI/ML, Business Intelligence, and innovative product development.
+                </div>
+            </section>
+
+            <!-- Highlights -->
+            <section class="section" aria-labelledby="logros-heading">
+                <h2 class="section-title" id="logros-heading">
+                    <span class="section-icon" aria-hidden="true">🏆</span>
+                    Key Achievements
+                </h2>
+                <div class="highlights">
+                    <div class="highlight-item">
+                        <span class="highlight-icon" aria-hidden="true">🎓</span>
+                        <div>
+                            <strong>Top Academic Record</strong><br>
+                            DAM Class of 2025 (9.85/10)
+                        </div>
                     </div>
-                    <span class="date">Mar 2024 - Jun 2025</span>
+                    <div class="highlight-item">
+                        <span class="highlight-icon" aria-hidden="true">💯</span>
+                        <div>
+                            <strong>Perfect Score Project</strong><br>
+                            Medical biometric system in production
+                        </div>
+                    </div>
+                    <div class="highlight-item">
+                        <span class="highlight-icon" aria-hidden="true">💼</span>
+                        <div>
+                            <strong>8+ years IT experience</strong><br>
+                            Development, systems, support
+                        </div>
+                    </div>
+                    <div class="highlight-item">
+                        <span class="highlight-icon" aria-hidden="true">🚀</span>
+                        <div>
+                            <strong>Autonomous development</strong><br>
+                            Enterprise architectures with AI
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Experience Section -->
+            <section class="section" id="experiencia" aria-labelledby="experiencia-heading">
+                <h2 class="section-title" id="experiencia-heading">
+                    <span class="section-icon" aria-hidden="true">💼</span>
+                    Professional Experience
+                </h2>
+                
+                <div class="experience-item">
+                    <div class="job-header">
+                        <div>
+                            <h3 class="job-title">AI/Full-Stack Developer</h3>
+                            <span class="company">DSA Grupo</span> | Desarrollo Full-Stack
+                        </div>
+                        <span class="date">Mar 2024 - Jun 2025</span>
+                    </div>
+                    
+                    <div class="project-box">
+                        <h4>🏥 Sistema de Tótem Biométrico Médico</h4>
+                        <p><strong>Lideré desarrollo completo de sistema biométrico médico enterprise en producción</strong></p>
+                        <div class="tech-stack">
+                            <strong>Backend:</strong> Python • Flask • PostgreSQL • Web3.py (blockchain)<br>
+                            <strong>Frontend:</strong> React • TypeScript • Tailwind CSS • Service Workers<br>
+                            <strong>IA/ML:</strong> face_recognition • Liveness Detection • Vosk • Whisper<br>
+                            <strong>Hardware:</strong> Cámaras térmicas • WebRTC
+                        </div>
+                        <ul>
+                            <li>Arquitectura full-stack con <strong>Python/Flask + React</strong> para autoservicio médico</li>
+                            <li>Implementé <strong>liveness detection multifactorial</strong> contra spoofing biométrico</li>
+                            <li>Integré <strong>blockchain (Web3.py)</strong> para integridad de datos críticos</li>
+                            <li>Desarrollé <strong>interfaz multimodal</strong> con STT/TTS (Vosk, Whisper, Kokoro)</li>
+                            <li>Sistema <strong>offline-first</strong> con Service Workers e IndexedDB para alta disponibilidad</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="project-box">
+                        <h4>🌱 Sistema de Detección Automática en Semilleros</h4>
+                        <div class="tech-stack">
+                            <strong>Modelos:</strong> RF-DETR 1.1.0 • FastSAM • Moondream 2<br>
+                            <strong>Tools:</strong> OpenCV • Ultralytics • Gradio<br>
+                            <strong>Infra:</strong> GPU optimization • CUDA
+                        </div>
+                        <ul>
+                            <li>Implementé detección automática de plantas con <strong>RF-DETR + FastSAM</strong></li>
+                            <li>Optimicé inferencia GPU (10GB VRAM) para procesamiento en tiempo real</li>
+                            <li><strong>Resultado:</strong> Sistema production-ready con interfaz web Gradio</li>
+                        </ul>
+                    </div>
+
+                    <div class="project-box">
+                        <h4>💬 Chatbot Automatizado Wallapop</h4>
+                        <div class="tech-stack">
+                            <strong>Backend:</strong> Python • FastAPI • spaCy • Ollama (Llama 3.2)<br>
+                            <strong>Frontend:</strong> React • TypeScript<br>
+                            <strong>Infraestructura:</strong> Redis • Monitoring completo
+                        </div>
+                        <ul>
+                            <li>Chatbot production con <strong>99.97% uptime</strong> sirviendo respuestas automatizadas en marketplace</li>
+                            <li>Sistema NLP híbrido combinando templates con <strong>Ollama (Llama 3.2)</strong></li>
+                            <li>Caché Redis y monitorización exhaustiva para alta disponibilidad</li>
+                            <li><strong>Resultado:</strong> Sistema production-ready manejando conversaciones de forma autónoma</li>
+                        </ul>
+                    </div>
                 </div>
 
-                <div class="job-description">
-                    Led complete development of enterprise medical biometric system in production
-                </div>
-
-                <ul class="job-achievements">
-                    <li>Full-stack architecture with <strong>Python/Flask + React</strong> for medical self-service kiosk</li>
-                    <li>Implemented multi-factor <strong>liveness detection</strong> against biometric spoofing</li>
-                    <li>Integrated <strong>blockchain (Web3.py)</strong> for critical data integrity</li>
-                    <li>Developed <strong>multimodal interface</strong> with STT/TTS (Vosk, Whisper, Kokoro)</li>
-                    <li><strong>Offline-first</strong> system with Service Workers and IndexedDB for high availability</li>
-                </ul>
-
-                <div class="tech-stack">
-                    <strong>Stack:</strong> Python, Flask, PostgreSQL, React, TypeScript, OpenCV, face_recognition
-                </div>
-
-                <div style="margin-top: 8px;">
-                    <div class="job-description">Computer Vision Pipeline for Precision Agriculture</div>
-                    <ul class="job-achievements">
-                        <li>Implemented automated plant detection with <strong>RF-DETR + FastSAM</strong></li>
-                        <li>Optimized GPU inference (10GB VRAM) for real-time processing</li>
-                        <li><strong>Result:</strong> Production-ready system with Gradio web interface</li>
+                <div class="experience-item">
+                    <div class="job-header">
+                        <div>
+                            <h3 class="job-title">Técnico Informático Senior & Encargado</h3>
+                            <span class="company">PCBOX Sevilla</span>
+                        </div>
+                        <span class="date">2015 - 2020</span>
+                    </div>
+                    <p><strong>Progresión de técnico a líder de equipo en 5 años</strong></p>
+                    <ul>
+                        <li>Lideré equipo técnico de 3 personas, formación y mentoring</li>
+                        <li>Implementé sistema de gestión de tickets, optimizando flujos de trabajo</li>
+                        <li>Gestioné infraestructura IT para clientes enterprise (hardware/software)</li>
+                        <li>Reduje tiempo de resolución 30%, alcanzando 95% satisfacción cliente</li>
                     </ul>
                 </div>
-
-                <div style="margin-top: 8px;">
-                    <div class="job-description">Wallapop Automated Chatbot</div>
-                    <ul class="job-achievements">
-                        <li>Production chatbot with <strong>99.97% uptime</strong> serving automated marketplace responses</li>
-                        <li>Hybrid NLP system combining template matching with <strong>Ollama (Llama 3.2)</strong></li>
-                        <li>Redis caching and comprehensive monitoring infrastructure</li>
+                
+                <div class="experience-item">
+                    <div class="job-header">
+                        <div>
+                            <h3 class="job-title">Emprendedor & Gestor</h3>
+                            <span class="company">Negocio Propio</span>
+                        </div>
+                        <span class="date">2011 - 2015</span>
+                    </div>
+                    <p><strong>Digitalicé operaciones y desarrollé sistemas de control</strong></p>
+                    <ul>
+                        <li>Implementé sistemas de inventario y control financiero</li>
+                        <li>Automaticé procesos manuales, mejorando eficiencia operacional</li>
                     </ul>
-                    <div class="tech-stack">
-                        <strong>Stack:</strong> Python, FastAPI, React, spaCy, Ollama, Redis
+                </div>
+            </section>
+
+            <!-- Skills Section -->
+            <section class="section" id="skills" aria-labelledby="skills-heading">
+                <h2 class="section-title" id="skills-heading">
+                    <span class="section-icon" aria-hidden="true">🛠️</span>
+                    Technical Skills
+                </h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>💻 Lenguajes & Frameworks</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Python (Flask, FastAPI)</span>
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">Java</span>
+                            <span class="skill-tag">React 18</span>
+                            <span class="skill-tag">TypeScript</span>
+                            <span class="skill-tag">JavaScript ES6+</span>
+                            <span class="skill-tag">Tailwind CSS</span>
+                            <span class="skill-tag">PostgreSQL</span>
+                            <span class="skill-tag">SQLite</span>
+                            <span class="skill-tag">IndexedDB</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3>🤖 IA & Computer Vision</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">OpenCV</span>
+                            <span class="skill-tag">Ultralytics</span>
+                            <span class="skill-tag">Transformers</span>
+                            <span class="skill-tag">RF-DETR</span>
+                            <span class="skill-tag">YOLO</span>
+                            <span class="skill-tag">FastSAM</span>
+                            <span class="skill-tag">face_recognition</span>
+                            <span class="skill-tag">Whisper</span>
+                            <span class="skill-tag">Vosk</span>
+                            <span class="skill-tag">CUDA</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3>⚙️ DevOps & Arquitectura</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Docker</span>
+                            <span class="skill-tag">Docker Compose</span>
+                            <span class="skill-tag">GitHub Actions</span>
+                            <span class="skill-tag">Microservicios</span>
+                            <span class="skill-tag">Service Workers</span>
+                            <span class="skill-tag">JWT</span>
+                            <span class="skill-tag">WebRTC</span>
+                            <span class="skill-tag">Web3.py</span>
+                            <span class="skill-tag">Linux</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3>🏗️ Herramientas & Prácticas</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">VS Code</span>
+                            <span class="skill-tag">Claude Code</span>
+                            <span class="skill-tag">Jest</span>
+                            <span class="skill-tag">Pytest</span>
+                            <span class="skill-tag">Cypress</span>
+                            <span class="skill-tag">Agile</span>
+                            <span class="skill-tag">Clean Code</span>
+                            <span class="skill-tag">SOLID</span>
+                            <span class="skill-tag">TDD</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>📊 Business Intelligence & Analytics</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Power BI</span>
+                            <span class="skill-tag">DAX</span>
+                            <span class="skill-tag">Modelado dimensional</span>
+                            <span class="skill-tag">Pandas</span>
+                            <span class="skill-tag">NumPy</span>
+                            <span class="skill-tag">Gradio</span>
+                            <span class="skill-tag">React dashboards</span>
+                            <span class="skill-tag">ETL</span>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
-            <div class="job">
-                <div class="job-header">
+            <!-- Education Section -->
+            <section class="section" id="educacion" aria-labelledby="educacion-heading">
+                <h2 class="section-title" id="educacion-heading">
+                    <span class="section-icon" aria-hidden="true">🎓</span>
+                    Education
+                </h2>
+                
+                <div class="education-item">
+                    <div class="job-header">
+                        <div>
+                            <h3 class="job-title">CFGS Desarrollo de Aplicaciones Multiplataforma</h3>
+                            <span class="company">IES Castillo de Luna, Rota</span>
+                        </div>
+                        <span class="date">2024 - 2025</span>
+                    </div>
+                </div>
+                
+                <div class="education-item">
+                    <div class="job-header">
+                        <div>
+                            <h3 class="job-title">CFGS Administración de Sistemas Informáticos</h3>
+                            <span class="company">Campus Universitario EUSA, Sevilla</span>
+                        </div>
+                        <span class="date">2006 - 2008</span>
+                    </div>
+                </div>
+                
+                <div style="margin-top: 15px;">
+                    <h3 style="font-size: 11pt; margin-bottom: 10px;">🗣️ Idiomas</h3>
+                    <p><strong>Español:</strong> Nativo | <strong>Inglés:</strong> C1</p>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section class="section" id="proyectos" aria-labelledby="proyectos-heading">
+                <h2 class="section-title" id="proyectos-heading">
+                    <span class="section-icon" aria-hidden="true">🚀</span>
+                    Featured Projects
+                </h2>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <h3>🏥 Sistema Biométrico Médico Enterprise</h3>
+                        <p><strong>Impacto:</strong> Sistema completo en producción para gestión médica</p>
+                        <p><strong>Stack:</strong> React + Python + PostgreSQL + Blockchain + WebRTC</p>
+                        <p><strong>Características:</strong> Offline-first, reconocimiento facial con anti-spoofing, accesibilidad WCAG AA</p>
+                    </div>
+                    
+                    <div class="project-card">
+                        <h3>🌱 Pipeline Computer Vision para Agricultura</h3>
+                        <p><strong>Impacto:</strong> Automatización de conteo y análisis de plantas</p>
+                        <p><strong>Stack:</strong> RF-DETR + FastSAM + OpenCV + CUDA</p>
+                        <p><strong>Optimización:</strong> Reducción 70% tiempo de procesamiento con GPU</p>
+                    </div>
+                    
+                    <div class="project-card">
+                        <h3>🔄 Conversor Multi-formato de Datos</h3>
+                        <p><strong>Funcionalidad:</strong> SQLite ↔ XML/JSON/Binario con UI intuitiva</p>
+                        <p><strong>Stack:</strong> Java + JavaFX + Jackson</p>
+                        <p><strong>Características:</strong> Interfaz gráfica intuitiva, conversión bidireccional</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Additional Info -->
+            <section class="section" aria-labelledby="info-adicional-heading">
+                <h2 class="section-title" id="info-adicional-heading">
+                    <span class="section-icon" aria-hidden="true">🌐</span>
+                    Additional Information
+                </h2>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
                     <div>
-                        <span class="job-title">Senior IT Technician & Team Lead</span> |
-                        <span class="company">PCBOX Seville</span>
+                        <h3 style="font-size: 11pt; margin-bottom: 10px;">📚 Formación Continua</h3>
+                        <p style="margin-bottom: 10px;"><strong>📊 Caso Práctico Power BI - Dashboard Analítico Retail</strong> (Sep 2025)</p>
+                        <ul style="font-size: 9pt; margin-bottom: 10px;">
+                            <li>Desarrollé dashboard completo con <strong>8 requerimientos técnicos</strong> en 48 horas sin experiencia previa</li>
+                            <li>Implementé medidas DAX complejas (variaciones temporales, acumulados, KPIs)</li>
+                            <li>Integré múltiples fuentes de datos con <strong>modelo dimensional</strong></li>
+                            <li>Creé visualizaciones interactivas: treemaps, matrices, gráficos combinados</li>
+                            <li><strong>Stack:</strong> Power BI Desktop, DAX, modelado de datos, ETL básico</li>
+                        </ul>
+                        <p>Actualmente explorando: Proyectos personales con agentes, MCP, agent swarms</p>
                     </div>
-                    <span class="date">2015 - 2020</span>
-                </div>
-
-                <div class="job-description">Progressed from technician to team leader in 5 years</div>
-
-                <ul class="job-achievements">
-                    <li>Led technical team of 3 people, training and mentoring</li>
-                    <li>Implemented ticket management system, optimizing workflows</li>
-                    <li>Managed IT infrastructure for enterprise clients (hardware/software)</li>
-                    <li>Reduced resolution time by 30%, achieving 95% customer satisfaction</li>
-                </ul>
-
-                <div class="tech-stack">
-                    <strong>Skills:</strong> Advanced troubleshooting, team management, enterprise support
-                </div>
-            </div>
-
-            <div class="job">
-                <div class="job-header">
                     <div>
-                        <span class="job-title">Entrepreneur</span> |
-                        <span class="company">Self-Employed</span>
+                        <h3 style="font-size: 11pt; margin-bottom: 10px;">💼 Experiencia Adicional</h3>
+                        <p><strong>Formación Técnica Temprana (2006-2008):</strong></p>
+                        <ul style="font-size: 9pt;">
+                            <li>Instalador de Redes - Solutia Innovaworld Technologies</li>
+                            <li>Admin. Sistemas - Cámara de Comercio Sevilla</li>
+                            <li>Admin. Sistemas - Noática Sistemas</li>
+                        </ul>
                     </div>
-                    <span class="date">2011 - 2015</span>
                 </div>
-
-                <div class="job-description">Digitized operations and developed control systems</div>
-
-                <ul class="job-achievements">
-                    <li>Implemented inventory and financial control systems</li>
-                    <li>Automated manual processes, improving operational efficiency</li>
-                </ul>
-            </div>
-        </section>
-
-        <section class="section">
-            <h2 class="section-title">Technical Skills</h2>
-            <div class="skills-grid">
-                <div class="skill-line"><strong>Backend & Data:</strong> Python (Flask, FastAPI), PostgreSQL, SQLite, RESTful APIs, JWT</div>
-                <div class="skill-line"><strong>Frontend:</strong> React, TypeScript, JavaScript ES6+, Tailwind CSS, Service Workers</div>
-                <div class="skill-line"><strong>AI/Computer Vision:</strong> OpenCV, RF-DETR, YOLO, FastSAM, face_recognition, Whisper, Ollama</div>
-                <div class="skill-line"><strong>BI & Analytics:</strong> Power BI, DAX, Dimensional Modeling, Pandas, NumPy, ETL</div>
-                <div class="skill-line"><strong>DevOps & Tools:</strong> Docker, Git, GitHub Actions, Linux, VS Code, Gradio, Redis</div>
-                <div class="skill-line"><strong>Architecture:</strong> Microservices, WebRTC, Blockchain (Web3.py), Offline-first design</div>
-            </div>
-        </section>
-
-        <section class="section">
-            <h2 class="section-title">Notable Projects</h2>
-
-            <div class="project">
-                <div class="project-title">Wallapop Automated Chatbot</div>
-                <div class="project-tech">Python + FastAPI + React + spaCy + Ollama (Llama 3.2)</div>
-                <div class="project-description">
-                    Production chatbot with 99.97% uptime serving automated responses for marketplace. Hybrid NLP + template system, Redis caching, and comprehensive monitoring.
-                </div>
-            </div>
-
-            <div class="project">
-                <div class="project-title">Enterprise Medical Biometric System</div>
-                <div class="project-tech">Python + React + Blockchain</div>
-                <div class="project-description">
-                    Complete medical self-service system with facial recognition, thermal detection, and blockchain for data integrity. Multimodal interface with STT/TTS.
-                </div>
-            </div>
-
-            <div class="project">
-                <div class="project-title">Agricultural Computer Vision Pipeline</div>
-                <div class="project-tech">RF-DETR + OpenCV</div>
-                <div class="project-description">
-                    Real-time automated plant detection and counting with GPU optimization and web diagnostic interface.
-                </div>
-            </div>
-
-            <div class="project">
-                <div class="project-title">Multi-Format Converter</div>
-                <div class="project-tech">Java + JavaFX</div>
-                <div class="project-description">
-                    Desktop application for SQLite ↔ XML/JSON/Binary conversion with graphical interface.
-                </div>
-            </div>
-        </section>
-
-        <section class="section">
-            <h2 class="section-title">Education</h2>
-            <div class="education-item">
-                <span class="education-title">Higher Technical Degree in Multiplatform Application Development</span> |
-                <span class="education-institution">IES Castillo de Luna, Rota</span> |
-                <span class="date">2024-2025</span>
-            </div>
-            <div class="education-item">
-                <span class="education-title">Higher Technical Degree in Computer Systems Administration</span> |
-                <span class="education-institution">EUSA Seville</span> |
-                <span class="date">2006-2008</span>
-            </div>
-
-            <div class="languages" style="margin-top: 10px;">
-                <strong>Languages:</strong> Spanish (Native), English (C1)
-            </div>
-
-            <div style="margin-top: 10px; font-size: 9pt;">
-                <strong>Continuous Learning:</strong> Power BI (48h practical case - retail analytics dashboard), Currently exploring: Personal projects with agents, MCP, agent swarms
-            </div>
-        </section>
-
-        <div class="footer">
-            Professional references available upon request
+            </section>
         </div>
+
+        <!-- Footer -->
+        <footer class="footer" id="contacto">
+            <h2 style="font-size: 16pt; margin-bottom: 10px;">🎯 Objetivo Profesional</h2>
+            <p style="max-width: 600px; margin: 0 auto; line-height: 1.6;">
+                Busco roles desafiantes como <strong>Full Stack Developer</strong>, <strong>AI/ML Engineer</strong>,
+                <strong>Data Analyst / BI Developer</strong> o <strong>DevOps Engineer</strong> en empresas que valoren la innovación y la excelencia técnica.
+                Especial interés en proyectos que combinen IA/Computer Vision/Analytics con impacto real.
+            </p>
+            
+            <div class="footer-links">
+                <a href="mailto:ejnero.dev@gmail.com" aria-label="Enviar email a ejnero.dev@gmail.com">
+                    <span aria-hidden="true">📧</span> ejnero.dev@gmail.com
+                </a>
+                <a href="https://linkedin.com/in/emilioneva" target="_blank" rel="noopener noreferrer" aria-label="Ver perfil de LinkedIn de Emilio Neva">
+                    <span aria-hidden="true">💼</span> LinkedIn
+                </a>
+                <a href="tel:+34622207205" aria-label="Llamar al 622 207 205">
+                    <span aria-hidden="true">📱</span> 622 207 205
+                </a>
+                <!-- <a href="https://github.com/ejnero" target="_blank">
+                    🐙 GitHub
+                </a> -->
+            </div>
+            
+            <p style="margin-top: 20px; font-size: 9pt; opacity: 0.9;">
+                <strong>Referencias profesionales y académicas disponibles bajo petición</strong><br>
+                Disponibilidad inmediata • Remoto preferido • Reubicación disponible
+            </p>
+        </footer>
     </div>
+
+    <script>
+        // Theme Toggle
+        const themeToggle = document.getElementById('theme-toggle');
+        const themeIcon = document.getElementById('theme-icon');
+        const themeText = document.getElementById('theme-text');
+        const html = document.documentElement;
+
+        // Check for saved theme preference or default to 'light' mode
+        const currentTheme = localStorage.getItem('theme') || 'light';
+        html.setAttribute('data-theme', currentTheme);
+
+        // Update button based on current theme
+        if (currentTheme === 'dark') {
+            themeIcon.textContent = '☀️';
+            themeText.textContent = 'Light Mode';
+        }
+
+        themeToggle.addEventListener('click', () => {
+            const theme = html.getAttribute('data-theme');
+            const newTheme = theme === 'light' ? 'dark' : 'light';
+
+            html.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+
+            if (newTheme === 'dark') {
+                themeIcon.textContent = '☀️';
+                themeText.textContent = 'Light Mode';
+            } else {
+                themeIcon.textContent = '🌙';
+                themeText.textContent = 'Dark Mode';
+            }
+        });
+
+        // PDF Download
+        const downloadPdfBtn = document.getElementById('download-pdf');
+        downloadPdfBtn.addEventListener('click', () => {
+            // Hide buttons before printing
+            const headerActions = document.querySelector('.header-actions');
+            const quickLinks = document.querySelector('.quick-links');
+            headerActions.style.display = 'none';
+            quickLinks.style.display = 'none';
+
+            // Print
+            window.print();
+
+            // Restore buttons after printing
+            setTimeout(() => {
+                headerActions.style.display = 'flex';
+                quickLinks.style.display = 'flex';
+            }, 100);
+        });
+
+        // Smooth scrolling para navegación
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Highlight active section in navigation
+        window.addEventListener('scroll', () => {
+            const sections = document.querySelectorAll('.section');
+            const navLinks = document.querySelectorAll('.nav-sidebar a');
+
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (scrollY >= sectionTop - 60) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.style.backgroundColor = '';
+                link.style.color = '';
+                if (link.getAttribute('href').slice(1) === current) {
+                    link.style.backgroundColor = 'var(--nav-hover-bg)';
+                    link.style.color = 'var(--primary)';
+                }
+            });
+        });
+    </script>
 </body>
 </html>

@@ -270,6 +270,13 @@
         .header-content {
             position: relative;
             z-index: 1;
+            margin-top: 50px;
+        }
+
+        @media (max-width: 768px) {
+            .header-content {
+                margin-top: 10px;
+            }
         }
         
         .name {
@@ -710,6 +717,10 @@
         <!-- Header -->
         <header class="header" id="inicio">
             <div class="header-actions">
+                <button class="action-btn" onclick="window.location.href='CV_Emilio_EN.html'" aria-label="Switch to English">
+                    <span>🌐</span>
+                    <span>EN</span>
+                </button>
                 <button class="action-btn" id="theme-toggle" aria-label="Cambiar tema">
                     <span id="theme-icon">🌙</span>
                     <span id="theme-text">Modo Oscuro</span>
