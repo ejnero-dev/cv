@@ -31,7 +31,7 @@
 
 ## 📚 Experiencia Profesional Clave
 
-### DSA Grupo (2023-2025) - AI/Full-Stack Developer
+### DSA Grupo (Mar 2024 - Jun 2025) - AI/Full-Stack Developer
 - **Proyecto principal:** Sistema biométrico médico enterprise
 - **Tecnologías:** Python, Flask, PostgreSQL, React, TypeScript, OpenCV, Web3.py
 - **Logros:** Sistema production-ready, liveness detection, blockchain, interfaz multimodal
@@ -277,7 +277,7 @@
 
 ### Cambios Finales Implementados (Julio 2025)
 - ✅ **Tagline híbrido:** "Full-Stack Developer con 8+ años en IT especializado en integración de Computer Vision en arquitecturas enterprise"
-- ✅ **Fechas corregidas:** DSA (2023-2025), CFGS ASI (2006-2008)
+- ✅ **Fechas corregidas:** DSA (Mar 2024 - Jun 2025), CFGS ASI (2006-2008)
 - ✅ **Idiomas:** C1 inglés (certificación completada)
 - ✅ **Archivo principal:** index.html (cv-pdf-interactive.html) con diseño superior interactivo
 
