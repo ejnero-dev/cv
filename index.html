@@ -189,16 +189,16 @@
                         <span class="stat-label">Migración Odoo Enterprise end-to-end, validada en producción</span>
                     </div>
                     <div class="stat">
-                        <span class="stat-value">74</span>
-                        <span class="stat-label">Módulos OCA racionalizados a funcionalidad nativa v19</span>
-                    </div>
-                    <div class="stat">
                         <span class="stat-value">8</span>
                         <span class="stat-label">Proyectos Odoo en paralelo, del requisito al go-live</span>
                     </div>
                     <div class="stat">
-                        <span class="stat-value">9,85</span>
-                        <span class="stat-label">Mejor expediente DAM 2025, con Odoo como asignatura</span>
+                        <span class="stat-value">API</span>
+                        <span class="stat-label">Integraciones XML-RPC/JSON-RPC y pasarelas de pago en producción</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-value">IA</span>
+                        <span class="stat-label">Automatización y LLMs aplicados sobre el ERP</span>
                     </div>
                 </div>
             </section>
@@ -218,7 +218,7 @@
                         </div>
                         <span class="date">Feb 2026 - Presente</span>
                     </div>
-                    <p><strong>Desarrollo, migración, integración y consultoría Odoo para 8 proyectos en paralelo</strong> (Odoo 16–19, Community y Enterprise, Online y Odoo.sh), en distintas fases, del levantamiento de requisitos a la puesta en producción.</p>
+                    <p><strong>Desarrollo, migración, integración y consultoría Odoo para varios proyectos en paralelo</strong> (Odoo 16–19, Community y Enterprise, Online y Odoo.sh), en distintas fases, del levantamiento de requisitos a la puesta en producción.</p>
 
                     <div class="project-box">
                         <h4>Migración Odoo 16 → 19 Enterprise (fundación sin ánimo de lucro)</h4>
@@ -227,9 +227,9 @@
                             <strong>Stack:</strong> Python • PostgreSQL • XML/QWeb • OWL • pre-migrate scripts • Odoo.sh • l10n_es (SEPA, AEAT, Veri*Factu)
                         </div>
                         <ul>
-                            <li>Re-upgrade encadenado <strong>16→17→18→19</strong> y racionalización de <strong>74 módulos OCA</strong> sustituidos por funcionalidad nativa v19</li>
-                            <li>Desarrollé un <strong>módulo a medida</strong> para la fundación: 10 modelos nuevos, 21 herencias y ~156 campos, con vistas XML, reportes QWeb y componentes OWL</li>
-                            <li>Ejecuté el <strong>ETL de donaciones: ~1.400 donaciones y ~300 donantes</strong> migrados a Suscripciones con mandato SEPA</li>
+                            <li>Re-upgrade encadenado <strong>16→17→18→19</strong> y racionalización del stack de <strong>módulos OCA</strong>, sustituido por funcionalidad nativa v19</li>
+                            <li>Desarrollé un <strong>módulo a medida</strong> para la fundación: nuevos modelos y herencias, con vistas XML, reportes QWeb y componentes OWL</li>
+                            <li>Ejecuté el <strong>ETL de donaciones</strong>: histórico completo de donaciones y donantes migrado a Suscripciones con mandato SEPA</li>
                         </ul>
                     </div>
 
@@ -240,8 +240,8 @@
                         </div>
                         <ul>
                             <li>Desarrollé el modelo <strong>partner.certificate</strong>: emisión con numeración automática, revisiones, propagación de fechas y flujos de suspensión/retirada</li>
-                            <li>Entregué el desarrollo en <strong>~17 PRs con CI</strong> (flujo feature → develop) y verifiqué la integridad vía <strong>XML-RPC en 173 pedidos</strong> (170 OK); cerrado en staging, despliegue a producción pendiente de ventana</li>
-                            <li>Adapté 4 productos de servicio a <strong>Suscripciones</strong> recurrentes (ISO 9001/14001, LOPD)</li>
+                            <li>Entregué el desarrollo en <strong>PRs incrementales con CI</strong> (flujo feature → develop) y verifiqué la integridad de los pedidos vía <strong>XML-RPC</strong>; cerrado en staging, despliegue a producción pendiente de ventana</li>
+                            <li>Adapté los productos de servicio a <strong>Suscripciones</strong> recurrentes (ISO 9001/14001, LOPD)</li>
                         </ul>
                     </div>
 
@@ -251,7 +251,7 @@
                             <strong>Stack:</strong> Python • _inherit • wizards • Pytest • Odoo 16 Community • Odoo.sh
                         </div>
                         <ul>
-                            <li>Construí un <strong>módulo a medida</strong> de planificación de mantenimiento: carga masiva desde <strong>76 Excel</strong> de fabricante, precarga de materiales en órdenes de trabajo y wizard de necesidades de compra</li>
+                            <li>Construí un <strong>módulo a medida</strong> de planificación de mantenimiento: carga masiva desde los <strong>Excel del fabricante</strong>, precarga de materiales en órdenes de trabajo y wizard de necesidades de compra</li>
                             <li>Desplegado en <strong>producción</strong> con tests e i18n; validado por el cliente</li>
                         </ul>
                     </div>
@@ -274,9 +274,9 @@
                             <strong>Stack:</strong> Python • pandas • LLMs (GPT-4o-mini) • Looker Studio • Claude Team • Microsoft 365
                         </div>
                         <ul>
-                            <li>Construí un <strong>pipeline de análisis de talento I+D</strong> para una consultora internacional healthcare: clasificación con LLM de <strong>~6.700 perfiles</strong> de 4 multinacionales (área, seniority, alcance), analytics y <strong>dashboard en Looker Studio</strong> en uso por el cliente</li>
-                            <li>Amplié el estudio a un <strong>snapshot de ~105.000 perfiles</strong> con inferencia de departamento por IA y score de confianza</li>
-                            <li><strong>Implanté Claude Team en una pyme</strong>: onboarding de 6 usuarios, conector Microsoft 365 y formación práctica de 90 min con casos de uso reales</li>
+                            <li>Construí un <strong>pipeline de análisis de talento I+D</strong> para una consultora internacional healthcare: clasificación con LLM de miles de perfiles de varias multinacionales (área, seniority, alcance), analytics y <strong>dashboard en Looker Studio</strong> en uso por el cliente</li>
+                            <li>Amplié el estudio a un <strong>snapshot de mayor escala</strong> con inferencia de departamento por IA y score de confianza</li>
+                            <li><strong>Implanté Claude Team en una pyme</strong>: onboarding del equipo, conector Microsoft 365 y formación práctica con casos de uso reales</li>
                         </ul>
                     </div>
                 </div>
@@ -289,13 +289,13 @@
                         </div>
                         <span class="date">Mar 2024 - Jun 2025</span>
                     </div>
-                    <p><strong>Desarrollé en autonomía (97%) sistemas Python en producción</strong></p>
+                    <p><strong>Desarrollé con alta autonomía sistemas Python en producción</strong></p>
                     <div class="tech-stack">
                         <strong>Stack:</strong> Python • Flask • FastAPI • PostgreSQL • APIs REST • Docker • React/TypeScript
                     </div>
                     <ul>
                         <li>Sistema biométrico médico enterprise en producción: backend <strong>Python/Flask + PostgreSQL</strong>, APIs REST e integración <strong>blockchain (Web3.py)</strong> para integridad de datos</li>
-                        <li>Chatbot automatizado para marketplace con <strong>99,97% de uptime</strong>: Python/FastAPI, NLP híbrido + LLM (Llama 3.2) y caché Redis</li>
+                        <li>Chatbot automatizado para marketplace <strong>en producción 24/7</strong>: Python/FastAPI, NLP híbrido + LLM (Llama 3.2) y caché Redis</li>
                         <li>Pipeline de visión por computador para agricultura con optimización GPU (RF-DETR, OpenCV)</li>
                     </ul>
                 </div>
@@ -310,7 +310,7 @@
                     </div>
                     <p><strong>Progresé de técnico a encargado en 5 años, liderando un equipo de 3 personas</strong></p>
                     <ul>
-                        <li>Reduje el <strong>tiempo de resolución un 30%</strong> y alcancé un <strong>95% de satisfacción</strong> implantando un sistema de gestión de tickets</li>
+                        <li>Implanté un <strong>sistema de gestión de tickets</strong> que redujo los tiempos de resolución y mejoró la satisfacción de los clientes</li>
                         <li>Gestioné infraestructura IT y soporte para clientes enterprise (hardware/software)</li>
                     </ul>
                 </div>
@@ -427,7 +427,7 @@
                         </div>
                         <span class="date">2024 - 2025</span>
                     </div>
-                    <p style="font-size: 9pt; margin-top: 4px;"><strong>Mejor expediente de la promoción (9.85/10).</strong> Incluye <strong>Odoo</strong> como asignatura (desarrollo de módulos y ERP) y proyecto final calificado con 10/10.</p>
+                    <p style="font-size: 9pt; margin-top: 4px;"><strong>Mejor expediente de la promoción.</strong> Incluye <strong>Odoo</strong> como asignatura (desarrollo de módulos y ERP).</p>
                 </div>
 
                 <div class="education-item">
@@ -455,44 +455,44 @@
                 <div class="project-grid">
                     <div class="project-card">
                         <h3>Migración Odoo 16 → 19 Enterprise</h3>
-                        <p><strong>Impacto:</strong> Migración cargada y validada en producción (UAT final) con ETL de ~1.400 donaciones / ~300 donantes</p>
+                        <p><strong>Reto:</strong> Una fundación con años de personalizaciones OCA necesitaba saltar tres versiones sin perder su operativa de donaciones</p>
                         <p><strong>Stack:</strong> Python + PostgreSQL + XML/QWeb + OWL + Odoo.sh + l10n_es</p>
-                        <p><strong>Claves:</strong> Re-upgrade 16→17→18→19, 74 módulos OCA racionalizados, módulo a medida (10 modelos / 21 herencias)</p>
+                        <p><strong>Solución:</strong> Re-upgrade encadenado, sustitución de módulos OCA por funcionalidad nativa, módulo a medida y ETL del histórico de donaciones a Suscripciones con SEPA; validado en producción</p>
                     </div>
 
                     <div class="project-card">
                         <h3>Módulo de Certificación a Medida</h3>
-                        <p><strong>Impacto:</strong> partner.certificate cerrado en staging tras ~17 PRs con CI (despliegue a prod pendiente)</p>
+                        <p><strong>Reto:</strong> Una consultora gestionaba el ciclo de vida de sus certificados fuera del ERP, sin trazabilidad</p>
                         <p><strong>Stack:</strong> Python + ORM + XML-RPC + Git + GitHub Actions</p>
-                        <p><strong>Claves:</strong> Numeración automática, revisiones, suspensión/retirada; auditoría XML-RPC de 173 pedidos</p>
+                        <p><strong>Solución:</strong> Modelo partner.certificate con numeración automática, revisiones y flujos de suspensión/retirada; entregado en PRs con CI y auditoría de datos vía XML-RPC</p>
                     </div>
 
                     <div class="project-card">
                         <h3>Módulo de Mantenimiento Preventivo</h3>
-                        <p><strong>Impacto:</strong> Módulo a medida desplegado en producción</p>
+                        <p><strong>Reto:</strong> Una industria planificaba el mantenimiento a mano desde los Excel del fabricante</p>
                         <p><strong>Stack:</strong> Python + _inherit + wizards + Pytest + Odoo 16</p>
-                        <p><strong>Claves:</strong> Carga masiva de 76 Excel, precarga de materiales en OTs, wizard de necesidades de compra</p>
+                        <p><strong>Solución:</strong> Carga masiva de planes, precarga de materiales en órdenes de trabajo y wizard de necesidades de compra; en producción y validado por el cliente</p>
                     </div>
 
                     <div class="project-card">
                         <h3>Integración Web → Odoo + MOQ Ecommerce</h3>
-                        <p><strong>Impacto:</strong> Formularios web que crean tickets en Odoo y reglas de pedido mínimo en tienda</p>
+                        <p><strong>Reto:</strong> Formularios web y tienda desconectados de la operativa en Odoo</p>
                         <p><strong>Stack:</strong> JSON-RPC / XML-RPC + website_sale + Python</p>
-                        <p><strong>Claves:</strong> Puente web→Odoo (Helpdesk), MOQ por variante, correo (SMTP/IMAP, SPF/DKIM/DMARC)</p>
+                        <p><strong>Solución:</strong> Puente web→Odoo (Helpdesk), reglas de pedido mínimo por variante y correo transaccional (SMTP/IMAP, SPF/DKIM/DMARC)</p>
                     </div>
 
                     <div class="project-card">
                         <h3>Benchmark de Talento I+D con IA</h3>
-                        <p><strong>Impacto:</strong> ~6.700 perfiles clasificados con LLM y dashboard Looker Studio en uso por una consultora healthcare; snapshot de ~105k perfiles</p>
+                        <p><strong>Reto:</strong> Una consultora healthcare necesitaba comparar el talento I+D de varias multinacionales sin proceso manual viable</p>
                         <p><strong>Stack:</strong> Python + pandas + GPT-4o-mini + Looker Studio</p>
-                        <p><strong>Claves:</strong> Taxonomía de 8 clusters, seniority L1-L7, QA iterativo con el cliente, inferencia de departamento con score de confianza</p>
+                        <p><strong>Solución:</strong> Clasificación masiva con LLM (área, seniority, alcance), QA iterativo con el cliente y dashboard Looker Studio en uso real</p>
                     </div>
 
                     <div class="project-card">
                         <h3>Implantación Claude Team en Pyme</h3>
-                        <p><strong>Impacto:</strong> 6 usuarios trabajando con IA en su día a día, con conector Microsoft 365 activo</p>
+                        <p><strong>Reto:</strong> Un equipo sin experiencia previa en IA quería incorporarla a su día a día</p>
                         <p><strong>Stack:</strong> Claude Team + Microsoft 365</p>
-                        <p><strong>Claves:</strong> Onboarding completo, formación práctica de 90 min con demos sobre casos reales del negocio</p>
+                        <p><strong>Solución:</strong> Onboarding completo, conector Microsoft 365 y formación práctica con demos sobre casos reales del negocio</p>
                     </div>
                 </div>
             </section>
@@ -509,7 +509,7 @@
                         <ul style="font-size: 9pt; margin-bottom: 10px; padding-left: 18px;">
                             <li><strong>Odoo en el día a día:</strong> desarrollo de módulos, migraciones 16→19, Odoo.sh y localización española (l10n_es, Veri*Factu, SEPA)</li>
                             <li><strong>IA aplicada al desarrollo Odoo:</strong> agentes, MCP y LLMs (GPT-4o-mini, Claude) para automatización y clasificación de datos</li>
-                            <li><strong>Power BI</strong> (Sep 2025): dashboard analítico retail con 8 requerimientos y medidas DAX en 48 h</li>
+                            <li><strong>Power BI</strong> (Sep 2025): dashboard analítico retail con medidas DAX</li>
                         </ul>
                     </div>
                     <div>

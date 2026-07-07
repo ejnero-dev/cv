@@ -29,9 +29,9 @@ Odoo Developer and Consultant at Databay Solutions. I take Odoo projects end to 
 
 ## 🚀 Featured projects
 
-- **Odoo 16→19 Enterprise migration** — chained re-upgrade, 74 OCA modules rationalized, ETL of ~1,400 donations to Subscriptions with SEPA
-- **Custom certification module** — `partner.certificate` with automatic numbering, revisions and suspension flows; delivered in ~17 PRs with CI
-- **Preventive maintenance module** — planning with bulk load of 76 Excel files, in production
+- **Odoo 16→19 Enterprise migration** — chained re-upgrade, OCA modules rationalized into native functionality, donation-history ETL to Subscriptions with SEPA
+- **Custom certification module** — `partner.certificate` with automatic numbering, revisions and suspension flows; delivered in incremental PRs with CI
+- **Preventive maintenance module** — planning with bulk load from manufacturer Excel files, in production
 - **Web→Odoo integrations** — web forms creating tickets via JSON-RPC, Redsys/SEPA payments
 
 ---

@@ -29,9 +29,9 @@ Desarrollador y Consultor Odoo en Databay Solutions. Llevo proyectos Odoo de ext
 
 ## 🚀 Proyectos destacados
 
-- **Migración Odoo 16→19 Enterprise** — re-upgrade encadenado, 74 módulos OCA racionalizados, ETL de ~1.400 donaciones a Suscripciones con SEPA
-- **Módulo de certificación a medida** — `partner.certificate` con numeración automática, revisiones y flujos de suspensión; entregado en ~17 PRs con CI
-- **Módulo de mantenimiento preventivo** — planificación con carga masiva de 76 Excel, en producción
+- **Migración Odoo 16→19 Enterprise** — re-upgrade encadenado, módulos OCA racionalizados a funcionalidad nativa, ETL del histórico de donaciones a Suscripciones con SEPA
+- **Módulo de certificación a medida** — `partner.certificate` con numeración automática, revisiones y flujos de suspensión; entregado en PRs incrementales con CI
+- **Módulo de mantenimiento preventivo** — planificación con carga masiva desde Excel de fabricante, en producción
 - **Integraciones web→Odoo** — formularios web que crean tickets vía JSON-RPC, pagos Redsys/SEPA
 
 ---

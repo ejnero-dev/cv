@@ -29,8 +29,8 @@
 1. **Liderar SIEMPRE con Odoo:** título, perfil, skills, proyectos. El resto de experiencia se enmarca como base transferible (DSA = Python/PostgreSQL/APIs/IA; PCBOX/emprendedor = sistemas de negocio).
 2. **NO reclamar Odoo antes de Feb 2026** — antes solo la asignatura del DAM.
 3. **Clientes de Databay por sector, nunca por nombre** (fundación, industria, hostelería, agrotech, ecommerce). Hay un cliente bajo NDA que no debe aparecer NUNCA en ningún artefacto público.
-4. **Cada entrada de experiencia = logro + métrica** (74 módulos OCA, ~1.400 donaciones ETL, ~17 PRs con CI, 76 Excel, 30% tiempo resolución…).
-5. **Logros académicos como complemento, nunca liderando** (mejor expediente DAM 9.85/10, proyecto 10/10, Odoo como asignatura).
+4. **Logros cualitativos, casi sin cifras (decidido Jul 2026 tras feedback externo):** el CV tenía exceso de métricas con "olor a IA". Única cifra permitida: **8 proyectos en paralelo**, mencionada UNA sola vez por documento. Prohibido reintroducir: porcentajes no verificables (97% autonomía, 99,97% uptime, 95% satisfacción, 30% resolución) y conteos hiperprecisos (74 OCA, ~1.400 donaciones, ~17 PRs, 173 pedidos, 76 Excel, ~156 campos, ~6.700/105k perfiles, 6 usuarios, 90 min, 48 h). Los logros se cuentan como problema→solución con resultado verificable ("validado en producción", "en uso por el cliente").
+5. **Logros académicos como complemento, nunca liderando.** Desde Jul 2026: "Mejor expediente de la promoción" SIN notas numéricas (el 9.85/10 y el 10/10 sonaban a junior); solo en la sección Formación, nunca en Logros Destacados.
 6. **Sin señales de búsqueda activa:** nada de "disponibilidad inmediata". El footer es propuesta de valor ("Qué aporto"), no objetivo de búsqueda.
 7. **Máximo 1-2 páginas** en la versión PDF.
 8. **Keywords ATS:** Odoo, módulos, integraciones, PostgreSQL, Python, XML-RPC, migración, Odoo.sh, QWeb, OWL, l10n_es, SEPA, Veri*Factu.
@@ -77,7 +77,9 @@ Eliminados (Jul 2026): `CV_Emilio_EN_AIFirst.html` (segundo posicionamiento, con
 - ❌ Multi-posicionamiento (Full-Stack + IA + Data + DevOps a la vez) — perfil único Odoo
 - ❌ Liderar con lo académico
 - ❌ Inflar: inglés B2 (no C1), no reclamar Odoo pre-2026
+- ❌ Métricas no verificables o hiperprecisas (97%, 99,97% uptime, 95% satisfacción…) — los recruiters las leen como CV generado por IA y caen en entrevista
+- ❌ Repetir la misma cifra/logro en varias secciones — Logros, Experiencia y Proyectos se complementan, no se duplican (cards de Proyectos = reto→solución, sin cifras; la PDF no lleva sección Proyectos)
 
 ---
 
-*Última actualización: Julio 2026 (reposicionamiento Odoo + rediseño visual + limpieza)*
+*Última actualización: Julio 2026 (reposicionamiento Odoo + rediseño visual + limpieza + poda de métricas tras feedback)*
